@@ -1,3 +1,56 @@
-h1 {
-    padding-top: 4em;
+*{
+    margin: 0;
+    padding: 0;
 }
+
+header,section,nav,aside,footer {
+    display:block;
+    height: 40%;
+
+}
+
+body {
+	text-align: center;
+
+}
+
+header,footer {
+	
+	display: none;
+	font-size: 32px;
+
+}
+
+header {
+	position: absolute;
+	left: 35%;	
+}
+
+footer {
+	text-align: center;
+}
+/*= Index-Canvas
+ ============================================================= */
+
+#canvas{
+	
+    background: white;
+}
+				
+#canvas_container{
+	margin-top: 50px;  
+    padding:5px;   
+    position: relative; 
+    z-index: -1;
+}
+
+.wrapper {
+	margin: 0 auto;
+	
+}
+
+
+
+
+				
+                
